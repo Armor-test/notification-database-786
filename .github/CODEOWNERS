@@ -1,0 +1,36 @@
+# CODEOWNERS file for notification-database-786
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-qa @Armor-test/dept-test @Armor-test/grp-storage
+
+# Directory ownership
+/app/ @Armor-test/squad-reporting @Armor-test/unit-cloud
+/extensions/ @Armor-test/unit-cloud @Armor-test/squad-research @Armor-test/dept-reporting
+/shared/ @Armor-test/grp-integration @Armor-test/dept-test @Armor-test/squad-mobile
+/lib/ @Armor-test/squad-database @Armor-test/squad-search
+/test/ @Armor-test/squad-payments @Armor-test/squad-search
+/dist/ @Armor-test/squad-ml @Armor-test/squad-research @Armor-test/team-frontend
+/examples/ @Armor-test/dept-automation @Armor-test/team-research
+/auth/ @Armor-test/team-frontend @Armor-test/dept-api
+/pkg/ @Armor-test/squad-ux @Armor-test/team-reporting
+/migrations/ @Armor-test/team-security @Armor-test/dept-release
+/deploy/ @Armor-test/squad-tooling @Armor-test/dept-test
+/assets/ @Armor-test/team-logging @Armor-test/dept-billing @Armor-test/squad-ux
+
+# File type ownership
+*.xml @Armor-test/squad-payments @Armor-test/squad-qa @Armor-test/dept-data
+*.scala @Armor-test/dept-billing @Armor-test/squad-frontend
+*.swift @Armor-test/unit-test @Armor-test/dept-data
+*.md @Armor-test/team-core @Armor-test/squad-database @Armor-test/grp-reporting
+*.config @Armor-test/squad-reporting @Armor-test/squad-database
+*.yaml @Armor-test/team-research @Armor-test/dept-reliability @Armor-test/dept-api
+*.tf @Armor-test/dept-data @Armor-test/unit-devops
+*.kt @Armor-test/squad-cache @Armor-test/grp-integration
+*.css @Armor-test/squad-research @Armor-test/squad-qa
+*.cs @Armor-test/dept-billing @Armor-test/squad-search
+*.py @Armor-test/grp-api @Armor-test/grp-payments @Armor-test/dept-ui
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
